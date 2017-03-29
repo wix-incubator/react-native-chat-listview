@@ -3,9 +3,21 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wix/react-native-chat-listview.git"
   },
-  "author": "",
-  "license": "ISC"
+  "scripts": {
+    "test": ":",
+    "build": ":",
+    "release": "wnpm-release -- --no-shrinkwrap",
+    "postrelease": "echo \"##teamcity[buildStatus text='Version: `jq -r '.version' package.json`; {build.status.text}']\""
+  },
+  "optionalDependencies": {
+    "wnpm-ci": "^6.1.166"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
 }
