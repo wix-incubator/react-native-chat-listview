@@ -38,13 +38,13 @@ static propTypes = {
 }
 ```
 
-###Callback Signatures
+### Callback Signatures
 ```js
 retrieveWindowSurrounding(position: Position, deltaMessageCount: int) //deltaMessageCount should be relatively small
 setReadPosition(position: Position)
 ```
 
-###Locus?? WTF? 
+### Locus?? WTF? 
 It's an actual [English word](https://www.merriam-webster.com/dictionary/locus). Go ahead and casually drop it in conversations! In addition to making you sound smarter than you are, it's an efficient way to confuse your listeners so they won't challenge your ideas. Trust me. 
 
 _Note: The word is pronounced similar to "locust", the thing that eats crops and pisses off farmers. The plural form of locus is *loci*, similar to the way octopus is pluralized as octopi, abacus is pluralized as abaci, and uterus becomes uteri*. In case you were wondering._
