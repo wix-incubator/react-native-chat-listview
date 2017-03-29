@@ -10,6 +10,7 @@
     "afterEach": false,
     "beforeAll": false,
     "afterAll": false,
-    "spyOn": false
+    "spyOn": false,
+    "device": false
   }
 }

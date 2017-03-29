@@ -9,24 +9,39 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
-  View
+  ScrollView,
+  View,
+  ListView
 } from 'react-native';
+import data from './data';
 
 export default class ChatListviewDemo extends Component {
+
+  constructor(props) {
+    super(props);
+    const ds = new ListView.DataSource({
+      rowHasChanged: (r1, r2) => r1 !== r2
+    });
+    this.state = {
+      ds: ds.cloneWithRows(data)
+    };
+  }
+
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
-      </View>
+        <ListView
+          dataSource={this.state.ds}
+          renderRow={(item, index) =>
+            <Text key={index}
+                  testID={index.toString()}
+                  style={{height: 100, padding: 5, backgroundColor: 'orange', margin: 5}}>
+              {item}
+            </Text>
+          }
+          style={{flex: 1}}
+          renderScrollComponent={() => <ScrollView style={{flex: 1}} testID={'list'} />}
+          />
+
     );
   }
 }

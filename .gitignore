@@ -56,7 +56,7 @@ build/
 xcuserdata
 *.xccheckout
 *.moved-aside
-DerivedData
+ios/DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
