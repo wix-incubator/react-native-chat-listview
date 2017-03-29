@@ -24,6 +24,7 @@ const endpoint = PropTypes.shape({
 
 static propTypes = {
   retrieveWindowSurrounding: PropTypes.func.isRequired,
+  renderMessage: PropTypes.func.isRequired,
   setReadPosition: PropTypes.func.isRequired,
   window: PropTypes.shape({
     bufferSize: PropTypes.int.isRequired,

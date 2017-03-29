@@ -19,5 +19,8 @@
   "license": "MIT",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "react-native-extended-cli": "^1.0.145"
   }
 }
