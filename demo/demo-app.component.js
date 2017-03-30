@@ -33,13 +33,13 @@ export default class ChatListviewDemo extends Component {
           dataSource={this.state.ds}
           renderRow={(item, index) =>
             <Text key={index}
-                  testID={index.toString()}
                   style={{height: 100, padding: 5, backgroundColor: 'orange', margin: 5}}>
               {item}
             </Text>
           }
+          testID={'list'}
           style={{flex: 1}}
-          renderScrollComponent={() => <ScrollView style={{flex: 1}} testID={'list'} />}
+          renderClippedSubviews={true}
           />
 
     );
