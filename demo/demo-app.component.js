@@ -8,8 +8,8 @@ export default class ChatListViewDemo extends Component {
     return (
         <ChatListView
           window={{messages: data}}
-          renderMessage={(item, index) =>
-            <Text key={index}
+          renderMessage={(item, sectionId, rowId) =>
+            <Text key={rowId}
                   style={{height: 100, padding: 5, backgroundColor: 'orange', margin: 5}}>
               {item}
             </Text>

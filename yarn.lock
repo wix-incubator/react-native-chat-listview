@@ -47,13 +47,17 @@ acorn-jsx@^3.0.0, acorn-jsx@^3.0.1:
   dependencies:
     acorn "^3.0.4"
 
-acorn@4.0.4, acorn@^4.0.3, acorn@^4.0.4:
-  version "4.0.4"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/acorn/-/acorn-4.0.4.tgz#17a8d6a7a6c4ef538b814ec9abac2779293bf30a"
-
 acorn@^3.0.4:
   version "3.3.0"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/acorn/-/acorn-3.3.0.tgz#45e37fb39e8da3f25baee3ff5369e2bb5f22017a"
+
+acorn@^4.0.3, acorn@^4.0.4:
+  version "4.0.11"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/acorn/-/acorn-4.0.11.tgz#edcda3bd937e7556410d42ed5860f67399c794c0"
+
+acorn@^5.0.1:
+  version "5.0.3"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/acorn/-/acorn-5.0.3.tgz#c460df08491463f028ccb82eab3730bf01087b3d"
 
 ajv-keywords@^1.0.0:
   version "1.5.1"
@@ -199,8 +203,8 @@ array-unique@^0.2.1:
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/array-unique/-/array-unique-0.2.1.tgz#a1d97ccafcbc2625cc70fadceb36a50c58b01a53"
 
 array.prototype.find@^2.0.1:
-  version "2.0.3"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/array.prototype.find/-/array.prototype.find-2.0.3.tgz#08c3ec33e32ec4bab362a2958e686ae92f59271d"
+  version "2.0.4"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/array.prototype.find/-/array.prototype.find-2.0.4.tgz#556a5c5362c08648323ddaeb9de9d14bc1864c90"
   dependencies:
     define-properties "^1.1.2"
     es-abstract "^1.7.0"
@@ -1098,8 +1102,8 @@ camelcase@^3.0.0:
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/camelcase/-/camelcase-3.0.0.tgz#32fc4b9fcdaf845fcdf7e73bb97cac2261f0ab0a"
 
 camelcase@^4.0.0:
-  version "4.0.0"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/camelcase/-/camelcase-4.0.0.tgz#8b0f90d44be5e281b903b9887349b92595ef07f2"
+  version "4.1.0"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/camelcase/-/camelcase-4.1.0.tgz#d545635be1e33c542649c69173e5de6acfae34dd"
 
 capture-stack-trace@^1.0.0:
   version "1.0.0"
@@ -1178,8 +1182,8 @@ cheerio@^0.22.0:
     lodash.some "^4.4.0"
 
 child-process-promise@^2.2.0:
-  version "2.2.0"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/child-process-promise/-/child-process-promise-2.2.0.tgz#08f6c9ed7848c770c0a2539cb132f4ce0840a866"
+  version "2.2.1"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/child-process-promise/-/child-process-promise-2.2.1.tgz#4730a11ef610fad450b8f223c79d31d7bdad8074"
   dependencies:
     cross-spawn "^4.0.2"
     node-version "^1.0.0"
@@ -2139,8 +2143,8 @@ eslint-plugin-mocha@^4.0.0:
     ramda "^0.23.0"
 
 eslint-plugin-react-native-wix@^1.0.0:
-  version "1.1.287"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/eslint-plugin-react-native-wix/-/eslint-plugin-react-native-wix-1.1.287.tgz#6ae9a51fdf259916654f2bafc65db72dcf7e40cb"
+  version "1.1.293"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/eslint-plugin-react-native-wix/-/eslint-plugin-react-native-wix-1.1.293.tgz#d07b8fecabbe89f26faf072ea65fb75221d779e8"
 
 eslint-plugin-react-native@^2.3.1:
   version "2.3.1"
@@ -2157,8 +2161,8 @@ eslint-plugin-react@^6.10.0:
     object.assign "^4.0.4"
 
 eslint@^3.18.0:
-  version "3.18.0"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/eslint/-/eslint-3.18.0.tgz#647e985c4ae71502d20ac62c109f66d5104c8a4b"
+  version "3.19.0"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/eslint/-/eslint-3.19.0.tgz#c8fc6201c7f40dd08941b87c085767386a679acc"
   dependencies:
     babel-code-frame "^6.16.0"
     chalk "^1.1.3"
@@ -2197,10 +2201,10 @@ eslint@^3.18.0:
     user-home "^2.0.0"
 
 espree@^3.4.0:
-  version "3.4.0"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/espree/-/espree-3.4.0.tgz#41656fa5628e042878025ef467e78f125cb86e1d"
+  version "3.4.1"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/espree/-/espree-3.4.1.tgz#28a83ab4aaed71ed8fe0f5efe61b76a05c13c4d2"
   dependencies:
-    acorn "4.0.4"
+    acorn "^5.0.1"
     acorn-jsx "^3.0.0"
 
 esprima-fb@^15001.1.0-dev-harmony-fb:
@@ -2380,9 +2384,9 @@ fbjs-scripts@^0.7.0:
     semver "^5.1.0"
     through2 "^2.0.0"
 
-fbjs@^0.8.1, fbjs@^0.8.4, fbjs@^0.8.5:
-  version "0.8.11"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fbjs/-/fbjs-0.8.11.tgz#340b590b8a2278a01ef7467c07a16da9b753db24"
+fbjs@^0.8.1, fbjs@^0.8.4, fbjs@^0.8.5, fbjs@^0.8.9:
+  version "0.8.12"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/fbjs/-/fbjs-0.8.12.tgz#10b5d92f76d45575fd63a217d4ea02bea2f8ed04"
   dependencies:
     core-js "^1.0.0"
     isomorphic-fetch "^2.1.1"
@@ -3018,7 +3022,7 @@ i@0.3.x:
   version "0.3.5"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/i/-/i-0.3.5.tgz#1d2b854158ec8169113c6cb7f6b6801e99e211d5"
 
-iconv-lite@0.4.11, iconv-lite@^0.4.5:
+iconv-lite@0.4.11:
   version "0.4.11"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/iconv-lite/-/iconv-lite-0.4.11.tgz#2ecb42fd294744922209a2e7c404dac8793d8ade"
 
@@ -3026,7 +3030,7 @@ iconv-lite@0.4.13:
   version "0.4.13"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/iconv-lite/-/iconv-lite-0.4.13.tgz#1f88aba4ab0b1508e8312acc39345f36e992e2f2"
 
-iconv-lite@~0.4.13:
+iconv-lite@^0.4.5, iconv-lite@~0.4.13:
   version "0.4.15"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/iconv-lite/-/iconv-lite-0.4.15.tgz#fe265a218ac6a57cfe854927e9d04c19825eddeb"
 
@@ -4274,7 +4278,7 @@ mime-types@2.1.11, mime-types@~2.1.9:
   dependencies:
     mime-db "~1.23.0"
 
-mime-types@^2.1.12, mime-types@~2.1.11, mime-types@~2.1.13, mime-types@~2.1.6, mime-types@~2.1.7:
+mime-types@^2.1.12, mime-types@~2.1.11, mime-types@~2.1.15, mime-types@~2.1.6, mime-types@~2.1.7:
   version "2.1.15"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/mime-types/-/mime-types-2.1.15.tgz#a4ebf5064094569237b8cf70046776d09fc92aed"
   dependencies:
@@ -4479,8 +4483,10 @@ normalize-package-data@^2.3.2, normalize-package-data@^2.3.4:
     validate-npm-package-license "^3.0.1"
 
 normalize-path@^2.0.1:
-  version "2.0.1"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/normalize-path/-/normalize-path-2.0.1.tgz#47886ac1662760d4261b7d979d241709d3ce3f7a"
+  version "2.1.1"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/normalize-path/-/normalize-path-2.1.1.tgz#1ab28b556e198363a8c1a6f7e6fa20137fe6aed9"
+  dependencies:
+    remove-trailing-separator "^1.0.1"
 
 npm-run-path@^1.0.0:
   version "1.0.0"
@@ -4928,8 +4934,8 @@ raw-body@~2.1.2:
     unpipe "1.0.0"
 
 rc@^1.0.1, rc@^1.1.2, rc@^1.1.6:
-  version "1.1.7"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc/-/rc-1.1.7.tgz#c5ea564bb07aff9fd3a5b32e906c1d3a65940fea"
+  version "1.2.0"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/rc/-/rc-1.2.0.tgz#c7de973b7b46297c041366b2fd3d2363b1697c66"
   dependencies:
     deep-extend "~0.4.0"
     ini "~1.3.0"
@@ -4937,8 +4943,8 @@ rc@^1.0.1, rc@^1.1.2, rc@^1.1.6:
     strip-json-comments "~2.0.1"
 
 react-addons-create-fragment@^15.4.0:
-  version "15.4.2"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-addons-create-fragment/-/react-addons-create-fragment-15.4.2.tgz#11372924f730a97dff4c690535211bb73d8f8815"
+  version "15.5.0"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-addons-create-fragment/-/react-addons-create-fragment-15.5.0.tgz#4cc97bf8b940b0f67e5457c304d49984bc82f80c"
   dependencies:
     fbjs "^0.8.4"
     object-assign "^4.1.0"
@@ -4951,8 +4957,8 @@ react-addons-perf@^15.4.0:
     object-assign "^4.1.0"
 
 react-addons-pure-render-mixin@^15.4.0:
-  version "15.4.2"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.4.2.tgz#a8433c71c45e2368503721921dc47bdaf1fbabcd"
+  version "15.5.0"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-addons-pure-render-mixin/-/react-addons-pure-render-mixin-15.5.0.tgz#5cb33ed20b9a4c34e9afa4d6f5583b587fdadbb7"
   dependencies:
     fbjs "^0.8.4"
     object-assign "^4.1.0"
@@ -4965,10 +4971,10 @@ react-addons-test-utils@^15.4.0, react-addons-test-utils@^15.4.2:
     object-assign "^4.1.0"
 
 react-addons-update@^15.4.0:
-  version "15.4.2"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-addons-update/-/react-addons-update-15.4.2.tgz#43a9578e3b46bc5f7eed2ba52560dd57a8aff918"
+  version "15.5.0"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-addons-update/-/react-addons-update-15.5.0.tgz#24e4dc7c92cadbda15add33086e3d625b9d342e5"
   dependencies:
-    fbjs "^0.8.4"
+    fbjs "^0.8.9"
     object-assign "^4.1.0"
 
 react-clone-referenced-element@^1.0.1:
@@ -4992,8 +4998,8 @@ react-native-controllers@^2.0.0:
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-native-controllers/-/react-native-controllers-2.1.4.tgz#e944857f0b8fe81029f7f6556fe7b6c1b6062911"
 
 react-native-extended-cli@^1.0.145:
-  version "1.0.145"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-native-extended-cli/-/react-native-extended-cli-1.0.145.tgz#c8181de9645a3d572560bbac76cf1ef3c68fcc6e"
+  version "1.0.146"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-native-extended-cli/-/react-native-extended-cli-1.0.146.tgz#aeb5fc3e48aaff50af4210ce79e94c70e3331ed8"
   dependencies:
     colors "^1.0.3"
     hasbin "^1.2.3"
@@ -5005,6 +5011,13 @@ react-native-extended-cli@^1.0.145:
   optionalDependencies:
     flow-bin "^0.23.0"
     wnpm-ci "^6.1.166"
+
+react-native-invertible-scroll-view@^1.0.0:
+  version "1.0.0"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-native-invertible-scroll-view/-/react-native-invertible-scroll-view-1.0.0.tgz#60ceb384dc950c34eba3a5aeda39f97cdc7d4e23"
+  dependencies:
+    react-clone-referenced-element "^1.0.1"
+    react-native-scrollable-mixin "^1.0.1"
 
 react-native-invoke@^0.2.1:
   version "0.2.2"
@@ -5034,6 +5047,10 @@ react-native-navigation@^1.0.30:
     react-native-controllers "^2.0.0"
   optionalDependencies:
     react-redux "*"
+
+react-native-scrollable-mixin@^1.0.1:
+  version "1.0.1"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/react-native-scrollable-mixin/-/react-native-scrollable-mixin-1.0.1.tgz#34a32167b64248594154fd0d6a8b03f22740548e"
 
 react-native@^0.38.0:
   version "0.38.1"
@@ -5314,6 +5331,10 @@ regjsparser@^0.1.4:
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/regjsparser/-/regjsparser-0.1.5.tgz#7ee8f84dc6fa792d3fd0ae228d24bd949ead205c"
   dependencies:
     jsesc "~0.5.0"
+
+remove-trailing-separator@^1.0.1:
+  version "1.0.1"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/remove-trailing-separator/-/remove-trailing-separator-1.0.1.tgz#615ebb96af559552d4bf4057c8436d486ab63cc4"
 
 repeat-element@^1.1.2:
   version "1.1.2"
@@ -6067,11 +6088,11 @@ type-check@~0.3.2:
     prelude-ls "~1.1.2"
 
 type-is@~1.6.6:
-  version "1.6.14"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/type-is/-/type-is-1.6.14.tgz#e219639c17ded1ca0789092dd54a03826b817cb2"
+  version "1.6.15"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/type-is/-/type-is-1.6.15.tgz#cab10fb4909e441c82842eafe1ad646c81804410"
   dependencies:
     media-typer "0.3.0"
-    mime-types "~2.1.13"
+    mime-types "~2.1.15"
 
 typedarray@^0.0.6, typedarray@~0.0.5:
   version "0.0.6"
@@ -6082,8 +6103,8 @@ ua-parser-js@^0.7.9:
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/ua-parser-js/-/ua-parser-js-0.7.12.tgz#04c81a99bdd5dc52263ea29d24c6bf8d4818a4bb"
 
 uglify-js@^2.6, uglify-js@^2.6.2:
-  version "2.8.18"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/uglify-js/-/uglify-js-2.8.18.tgz#925d14bae48ab62d1883b41afe6e2261662adb8e"
+  version "2.8.21"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/uglify-js/-/uglify-js-2.8.21.tgz#1733f669ae6f82fc90c7b25ec0f5c783ee375314"
   dependencies:
     source-map "~0.5.1"
     yargs "~3.10.0"

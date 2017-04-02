@@ -1,6 +1,6 @@
 {
   "name": "react-native-chat-listview",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "",
   "main": "src/index.js",
   "repository": {
@@ -81,5 +81,8 @@
         "name": "iPhone 6s"
       }
     }
+  },
+  "dependencies": {
+    "react-native-invertible-scroll-view": "^1.0.0"
   }
 }
