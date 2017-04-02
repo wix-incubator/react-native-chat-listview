@@ -17,8 +17,18 @@ export default class ChatListView extends Component {
       rowHasChanged: (r1, r2) => r1 !== r2
     });
     this.state = {
-      ds: ds.cloneWithRows(props.window.messages.reverse())
+      ds: ds.cloneWithRows(this.processMessages(props))
     };
+  }
+
+  componentWillReceiveProps(nexProps) {
+    if (nexProps.window && nexProps.window.messages !== this.props.window.messages) {
+      this.setState({ds: this.state.ds.cloneWithRows(this.processMessages(nexProps))});
+    }
+  }
+
+  processMessages(props) {
+    return props.window.messages.reverse();
   }
 
   render() {

@@ -1,4 +1,5 @@
 import data from '../../demo/data';
+import data2 from '../../demo/data2';
 
 describe('sanity e2e', () => {
 
@@ -18,7 +19,6 @@ describe('sanity e2e', () => {
 
   });
 
-
   it('should not render too many messages at once', async () => {
     await expect(element(by.label(data[99]))).toBeVisible();
     await expect(element(by.label(data[79]))).toNotExist();
@@ -26,5 +26,10 @@ describe('sanity e2e', () => {
     await expect(element(by.label(data[79]))).toExist();
   });
 
+  it('should update the data', async () => {
+    await expect(element(by.label(data[data.length - 1]))).toBeVisible();
+    await element(by.id('dataSet2')).tap();
+    await expect(element(by.label(data2[data2.length - 1]))).toBeVisible();
+  });
 
 });
