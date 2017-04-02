@@ -20,4 +20,4 @@ export default class ChatListViewDemo extends Component {
   }
 }
 
-AppRegistry.registerComponent('ChatListviewDemo', () => ChatListviewDemo);
+AppRegistry.registerComponent('ChatListviewDemo', () => ChatListViewDemo);
