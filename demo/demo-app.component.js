@@ -3,7 +3,7 @@ import {AppRegistry, Text, View, TouchableOpacity} from 'react-native';
 import data from './data';
 import data2 from './data2';
 
-import ChatListView from '../src';
+import ChatListView from '../src/chat-list-view';
 
 export default class ChatListViewDemo extends Component {
   constructor(props) {
