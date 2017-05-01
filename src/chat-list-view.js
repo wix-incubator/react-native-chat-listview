@@ -6,9 +6,14 @@ export default class ChatListView extends Component {
 
   static propTypes = {
     renderMessage: PropTypes.func.isRequired,
+    keyboardDismissMode: PropTypes.oneOf(['none', 'interactive', 'on-drag']),
     window: PropTypes.shape({
       messages: PropTypes.array.isRequired
     }).isRequired
+  };
+
+  static defaultProps ={
+    keyboardDismissMode: 'none'
   };
 
   constructor(props) {
@@ -39,6 +44,7 @@ export default class ChatListView extends Component {
         renderRow={this.props.renderMessage}
         style={{flex: 1}}
         renderScrollComponent={props => <InvertibleScrollView {...props} testID={'list'} inverted/>}
+        keyboardDismissMode={this.props.keyboardDismissMode}
         />
     );
   }
