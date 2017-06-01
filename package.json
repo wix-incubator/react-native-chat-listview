@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "react-native start",
-    "test": "rnx test",
+    "test": "rnx test --loglevel verbose",
     "build": "rnx build",
     "release": "rnx release",
     "lint": "rnx lint",
