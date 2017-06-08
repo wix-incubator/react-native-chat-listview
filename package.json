@@ -23,8 +23,8 @@
     "preset": "react-native"
   },
   "peerDependencies": {
-    "react": "15.4.2",
-    "react-native": "^0.38.0"
+    "react": "16.0.0-alpha.6",
+    "react-native": "0.44.2"
   },
   "devDependencies": {
     "babel-jest": "19.0.0",
@@ -43,10 +43,10 @@
     "jest": "19.0.2",
     "mocha": "^3.2.0",
     "proxyquire": "^1.7.11",
-    "react": "15.4.2",
+    "react": "16.0.0-alpha.6",
     "react-addons-test-utils": "^15.4.2",
     "react-dom": "^15.4.2",
-    "react-native": "^0.38.0",
+    "react-native": "0.44.2",
     "react-native-extended-cli": "^1.0.145",
     "react-native-mock": "^0.3.1",
     "react-native-navigation": "^1.0.30",
