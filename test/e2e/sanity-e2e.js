@@ -23,7 +23,7 @@ describe('sanity e2e', () => {
     await expect(element(by.label(data[99]))).toBeVisible();
     await expect(element(by.label(data[79]))).toNotExist();
     await element(by.id('list')).swipe('down', 'fast');
-    await expect(element(by.label(data[79]))).toExist();
+    await waitFor(element(by.label(data[79]))).toExist().withTimeout(1000); // eslint-disable-line
   });
 
   it('should update the data', async () => {
