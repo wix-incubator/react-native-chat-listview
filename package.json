@@ -30,7 +30,7 @@
     "babel-jest": "19.0.0",
     "babel-preset-react-native": "1.9.1",
     "chance": "^1.0.6",
-    "detox": "^5.0.5",
+    "detox": "5.2.0",
     "detox-server": "^1.2.2",
     "enzyme": "^2.8.0",
     "enzyme-drivers": "^1.0.28",
