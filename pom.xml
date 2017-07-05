@@ -8,16 +8,13 @@
     <version>1.0.0-SNAPSHOT</version>
     <description>React Native Chat Listview</description>
     <organization>
-        <name>One App</name>
+        <name>CRM</name>
     </organization>
     <parent>
         <groupId>com.wixpress.common</groupId>
         <artifactId>wix-master-parent</artifactId>
         <version>100.0.0-SNAPSHOT</version>
     </parent>
-    <organization>
-        <name>CRM</name>
-    </organization>
     <developers>
         <developer>
             <name>Aaron Greenwald</name>
