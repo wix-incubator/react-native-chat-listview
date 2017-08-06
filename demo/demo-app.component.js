@@ -8,7 +8,7 @@ import ChatListView from '../src/chat-list-view';
 export default class ChatListViewDemo extends Component {
   constructor(props) {
     super(props);
-    this.state = {messages: data};
+    this.state = {messages: data, showFooter: false};
   }
 
   render() {
@@ -24,10 +24,16 @@ export default class ChatListViewDemo extends Component {
               {item}
             </Text>
           }
-          />
-        <TouchableOpacity testID={'dataSet2'} onPress={() => this.useDataSet2()}>
-          <Text>Use Dataset 2</Text>
-        </TouchableOpacity>
+          renderFooter={() => this.state.showFooter && <View testID={'footer-view'} style={{height: 50, backgroundColor: 'red'}}><Text>{'i am a footer'}</Text></View>}
+        />
+        <View style={{flexDirection: 'row'}}>
+          <TouchableOpacity testID={'dataSet2'} onPress={() => this.useDataSet2()}>
+            <Text>Use Dataset 2</Text>
+          </TouchableOpacity>
+          <TouchableOpacity style={{marginLeft: 50}} testID={'toggle-footer'} onPress={() => this.showFooter()}>
+            <Text>Toggle Footer</Text>
+          </TouchableOpacity>
+        </View>
       </View>
 
     );
@@ -35,6 +41,11 @@ export default class ChatListViewDemo extends Component {
 
   useDataSet2() {
     this.setState({messages: data2});
+  }
+
+  showFooter() {
+    const showFooter = !this.state.showFooter;
+    this.setState({showFooter});
   }
 }
 

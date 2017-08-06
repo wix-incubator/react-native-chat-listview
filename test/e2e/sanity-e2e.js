@@ -32,4 +32,8 @@ describe('sanity e2e', () => {
     await expect(element(by.label(data2[data2.length - 1]))).toBeVisible();
   });
 
+  it('should show a footer', async () => {
+    await element(by.id('toggle-footer')).tap();
+    await expect(element(by.id('footer-view'))).toBeVisible();
+  });
 });
