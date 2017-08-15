@@ -11,7 +11,7 @@ export default class ChatListView extends Component {
     window: PropTypes.shape({
       messages: PropTypes.array.isRequired
     }).isRequired,
-    additionalStyle: PropTypes.object,
+    additionalStyle: PropTypes.oneOfType([PropTypes.object, PropTypes.number]),
   };
 
   static defaultProps ={
@@ -49,7 +49,7 @@ export default class ChatListView extends Component {
         style={[{flex: 1}, this.props.additionalStyle]}
         renderScrollComponent={props => <InvertibleScrollView {...props} testID={'list'} inverted/>}
         keyboardDismissMode={this.props.keyboardDismissMode}
-        />
+      />
     );
   }
 }
