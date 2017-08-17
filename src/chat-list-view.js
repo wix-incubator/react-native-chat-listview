@@ -36,7 +36,7 @@ export default class ChatListView extends Component {
   }
 
   processMessages(props) {
-    return props.window.messages.reverse();
+    return props.window.messages.slice().reverse();
   }
 
   render() {
